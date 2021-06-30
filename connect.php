@@ -12,6 +12,33 @@
 </head>
 <body>
 
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-indigo-600">
+  <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between flex-wrap">
+      <div class="w-0 flex-1 flex items-center">
+        <span class="flex p-2 rounded-lg bg-indigo-800">
+          <!-- Heroicon name: outline/speakerphone -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+          </svg>
+        </span>
+        <p class="ml-3 font-medium text-white truncate">
+          <span class="md:hidden">
+            We announced a new product!
+          </span>
+          <span class="hidden md:inline">
+            Big news! We're excited to announce that we are adding new books everyday!
+          </span>
+        </p>
+      </div>
+     
+     
+    </div>
+  </div>
+</div>
+
+
 <header class="text-gray-700 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -58,19 +85,19 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4 text-center">
       <div class="p-4 sm:w-1/4 w-1/2">
-        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.7K</h2>
         <p class="leading-relaxed">Members</p>
       </div>
       <div class="p-4 sm:w-1/4 w-1/2">
-        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">11 k</h2>
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">11k</h2>
         <p class="leading-relaxed">Books</p>
       </div>
       <div class="p-4 sm:w-1/4 w-1/2">
-        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">12</h2>
         <p class="leading-relaxed">online</p>
       </div>
       <div class="p-4 sm:w-1/4 w-1/2">
-        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">3</h2>
         <p class="leading-relaxed">Branch</p>
       </div>
     </div>
