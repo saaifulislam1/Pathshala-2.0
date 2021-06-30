@@ -22,10 +22,10 @@
                   
             if(isset($_POST['search'])){
                 $searchkey=$_POST['search'];
-                $sql="SELECT * FROM bangla_books WHERE BOOK_NAME LIKE '%$searchkey%' or AUTHOR_NAME LIKE  '%$searchkey%'  ";
+                $sql="SELECT * FROM all_books WHERE BOOK_NAME LIKE '%$searchkey%' or AUTHOR_NAME LIKE  '%$searchkey%'  ";
             }
             else
-            $sql="SELECT * FROM bangla_books";
+            $sql="SELECT * FROM all_books";
             $result= mysqli_query($connection,$sql);
 
                 ?>
