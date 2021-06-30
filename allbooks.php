@@ -45,11 +45,11 @@ if ($conn->connect_error) {
     exit();
 
 }
-printf("HERE ARE THE RECORDS");
+printf("HERE ARE THE RECORDS:");
 
 $query = "SELECT ID, BOOK_NAME,AUTHOR_NAME,LANGUAGE,REALESED_YEAR, SHELF_NO FROM all_books";
 if ($result = $conn->query($query)) {
-printf("<br>%d record found!<br>", $result->num_rows);
+printf("<br><strong><mark>%d</mark></strong> records found!<br>", $result->num_rows);
 /* fetch associative array */
 
 printf("<table>");
